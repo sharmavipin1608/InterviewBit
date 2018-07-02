@@ -113,5 +113,10 @@ public class NextPermutation {
         System.out.println(a4.toString());
         nextPermutation(a4);
         System.out.println(a4.toString());
+        
+        ArrayList<Integer> a5 = new ArrayList<Integer>(Arrays.asList(7,1,9,1,2,3));
+        System.out.println(a5.toString());
+        nextPermutation(a5);
+        System.out.println(a5.toString());
     }
 }
